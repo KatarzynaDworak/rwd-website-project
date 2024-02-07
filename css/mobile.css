@@ -8,16 +8,16 @@
     }
 
     .header__logo {
-        margin: 10px;
-        padding: 3px;
+        margin: 12px;
+        padding: 2px;
     }
 
     .header__nav {
-        margin: 13px;
-        width: 40px;
+        margin: 19px 17px 14px 10px;
+        width: 37px;
         height: 35px;
         border: 0;
-        border-top: 5px solid white;
+        border-top: 3px solid white;
         background: transparent;
         position: relative;
     }
@@ -28,11 +28,11 @@
         top: 0;
         left: 0;
         width: 100%;
-        border-top: 5px solid white;
+        border-top: 3px solid white;
         transform: translateY(10px);
     }
     .header__nav::after {
-        transform: translateY(25px);
+        transform: translateY(23px);
     }
 
     main {
@@ -47,21 +47,25 @@
 
     .main_title {
         margin: 0px;
-        padding: 15px;
-        padding-top: 50px;
-        font-size: 45px;
+        padding: 43px 15px 15px 10px;
+        font-size: 39px;
         font-weight: 200;
+        line-height: 1.3em;
     }
 
     .main__description {
-        padding: 15px;
-        padding-bottom: 90px;
-        font-size: 20px;
-        font-weight: 300;
+        margin: 0px;
+        padding: 0px 34px 15px 14px;
+        font-size: 1.2em;
+        font-weight: 200;
+        line-height: 1.3em;
     }
 
     .main img {
         bottom: 0;
+        max-width: 100%;
+        width: 97%;
+        margin-bottom: -91px;
     }
 
     .main__btn {
@@ -69,12 +73,11 @@
         color: white;
         font-size: 20px;
         font-weight: 100;
-        padding: 20px 30px;
-        margin-bottom: 50px;
-        margin-left: 20px;
+        padding: 21px 17px;
+        margin: 43px 0 90px 16px;
         border: none;
         border-radius: 8px;
-        width: 200px;
+        width: 225px;
     }
 
     .benefits {
@@ -85,22 +88,24 @@
     }
     
     .benefits__titles {
-        margin: 0px auto;
-        padding: 40px 6px;
-        font-size: 30px;
+        margin: 0px;
+        padding: 43px 15px 15px 10px;
+        font-size: 39px;
         font-weight: 200;
+        line-height: 1.3em;
     }
 
     .benefits__item {
         font-size: 30px;
         font-weight: 100;
+        padding: 34px 104px;
     }
 
     .benefits__img-1, .benefits__img-2, .benefits__img-3 {
-        width: 120px;
-        height: 120px;
+        width: 136px;
+        height: 129px;
         border-radius: 30px;
-        margin: 30px auto;
+        margin: 3px auto;
         padding: 33px;
     }
     
@@ -124,16 +129,17 @@
     
     .features__title {
         margin: 0px auto;
-        padding: 40px 6px;
-        font-size: 30px;
+        padding: 41px 28px 1px 17px;
+        font-size: 36px;
         font-weight: 200;
     }
 
     .features__description {
         padding: 15px;
-        padding-bottom: 90px;
+        padding-bottom: 35px;
         font-size: 20px;
         font-weight: 300;
+        line-height: 1.9em;
     }
 
     .features__btn {
@@ -142,55 +148,69 @@
         font-size: 20px;
         font-weight: 100;
         padding: 20px 30px;
-        margin-bottom: 50px;
-        margin-left: 20px;
+        margin-bottom: 37px;
         border: none;
         border-radius: 8px;
-        width: 200px;
+        width: 235px;
+        margin-right: 320px;
     }
 
     .comment {
         color: #2c2c2c;
-        background-color: white;
-        margin: 50px;
+        margin: 60px 0 0 0;
         text-align: center;
         background: url(../images/banner/testmonial.png);
+        /* background: rgba(0, 0, 0, .5); */
         background-color: rgb(48, 153, 250, 0.5);
+        height: 587px;
         /* Tło nie jest niebieskie */
     }
     
     .comment__title {
         margin: 0px auto;
-        padding: 40px 6px;
-        font-size: 30px;
+        padding: 125px 6px 0 6px;
+        font-size: 37px;
         font-weight: 200;
+        margin-top: 46px;
+        line-height: 1.2;
     }
 
     .comment__description {
-        padding: 15px;
-        padding-bottom: 90px;
-        font-size: 20px;
+        padding: 43px 15px 0px 15px;
+        font-size: 24px;
         font-weight: 300;
+        line-height: 1.7;
     }
 
     .offer {
         color: #2c2c2c;
         background-color: white;
-        margin-top: 50px;
+        margin-top: 15px;
         text-align: center;
     }
     
     .offer__title {
         margin: 0px auto;
         padding: 40px 6px;
-        font-size: 30px;
+        font-size: 35px;
+        font-weight: 200;
+        padding-bottom: 26px;
+    }
+
+    .offer__description {
+        margin: 0px auto;
+        padding: 0px 6px;
+        font-size: 20px;
         font-weight: 200;
     }
 
     .basic__header {
         display: flex;
         justify-content: space-between;
-        margin: 40px 80px;
+        margin: 36px 55px;
+        margin-top: 68px;
+        font-size: 25px;
+        color: rgb(48, 153, 250);
     }
 
     .basic__item {
