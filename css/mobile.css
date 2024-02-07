@@ -155,15 +155,19 @@
         margin-right: 320px;
     }
 
+    /* Tło nie jest niebieskie */
     .comment {
         color: #2c2c2c;
         margin: 60px 0 0 0;
         text-align: center;
         background: url(../images/banner/testmonial.png);
-        /* background: rgba(0, 0, 0, .5); */
-        background-color: rgb(48, 153, 250, 0.5);
         height: 587px;
-        /* Tło nie jest niebieskie */
+        z-index: 0;
+    }
+
+    .comment--blue {
+        background-color: rgb(48, 153, 250, 0.5);
+        z-index: 1;
     }
     
     .comment__title {
@@ -180,6 +184,13 @@
         font-size: 24px;
         font-weight: 300;
         line-height: 1.7;
+    }
+    /* Ikony nie są widoczne, być moe chodzi o z-index? */
+    .fa-solid {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        color: white;
     }
 
     .offer {
@@ -202,28 +213,172 @@
         padding: 0px 6px;
         font-size: 20px;
         font-weight: 200;
+        padding-bottom: 10px;
     }
 
-    .basic__header {
+    .basic__header, .team__header, .business__header {
         display: flex;
         justify-content: space-between;
-        margin: 36px 55px;
-        margin-top: 68px;
+        margin: 41px 0 36px 0;
+        padding: 15px 40px;
         font-size: 25px;
+    }
+    .basic__header {
         color: rgb(48, 153, 250);
+        background-color: rgb(48, 153, 250, 0.1);
     }
 
-    .basic__item {
-        margin: 20px;
+    .team__header {
+        color: #F4AE5E;
+        background-color: rgb(244, 174, 94, 0.1);
     }
 
+    .business__header {
+        color: #6DD991;
+        background-color: rgb(109, 217, 145, 0.1);
+    }
+    
+    .offer__item {
+        margin: 22px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .offer__basic, .offer__team, .offer__business {
+        background-color: #FAFAFA;
+        padding: 1px;
+    }
+
+    .offer__container {
+        width: 95%;
+        margin: 0 auto;
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: #eeeded 0px 0px 26px 5px;
+        padding-bottom: 55px;
+        }
+
+        /* Nieudana próba dodania marzy dolnej do 3 elementu */
+         /* .offer__container:nth-last-child(3) {
+        margin-bottom: 50px;
+        } */
+    
     .offer__btn {
         background-color: white;
         border: 1px solid #2A93F9;
         border-radius: 5px;
-        margin: 20px;
-        width: 80px;
+        margin: 6px;
+        width: 141px;
         color: #2A93F9;
+        padding: 13px;
+        font-size: 19px;
+    }
+
+    .apps {
+        background-color: rgb(24, 139, 255, 0.7);
+        height: 400px;
+        margin-top: 37px;
+    }
+
+    .apps__title {
+        padding: 40px 6px;
+        font-size: 35px;
+        font-weight: 200;
+        padding-bottom: 26px;
+        color: white;
+        margin: 0 auto;
+        /* Nie działa wyśrodkowanie margin: 0 auto, musiałam przesuwać padding-left */
+        margin-top: 30px;
+        padding-top: 107px;
+        padding-left: 2px;
+        text-align: center;
+    }
+
+    /* Problem z rozsunięciem aplikacji, margin + padding nie działa, space-evenly odsuwa za szeroko */
+    .apps__img {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10px;
+        margin-top: -16px;
+    }
+    
+    .links {
+        height: 1123px;
+        background-color: #1F1F1F;
+        color: white;
+    }
+
+    .links__description {
+        padding-left: 12px;
+        font-size: 20px;
+    }
+
+    .links__img {
+        padding: 13px;
+        padding-top: 83px;
+        width: 23%;
+    }
+
+    .links__icons {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .icon__item {
+        background-color: rgb(216 211 211 / 30%);
+        border-radius: 50%;
+        color: white;
+        width: 51px;
+        height: 51px;
+        display: inline-block;
+        margin: 6px;
+        margin-top: 43px;
+        position: relative;
+    }
+
+    /* Ikony nie są widoczne */
+    .fa-brands {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        color: white;
+        z-index: 1;
+    }
+
+    .links__header {
+        color: white;
+        font-size: 27px;
+        padding-left: 12px;
+        padding-top: 27px;
+    }
+
+    .links__item {
+        color: white;
+        padding-left: 12px;
+        padding-top: 29px;
+    }
+
+    .footer, .footer__item {
+        background-color: #000000;
+        color: white;
+        height: 126px;
+        padding: 31px;
+        padding-top: 43px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .footer__item {
+        color: #2A93F9;
+        padding-top: 0px;
+    }
+
+    /* Ikona serca nie jest widoczna */
+    .fa-regular {
+        color: white;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
     }
 }
 
