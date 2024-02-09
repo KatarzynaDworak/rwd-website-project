@@ -223,7 +223,7 @@
         padding-right: 14px;
     }
 
-    /* Tło nie jest niebieskie */
+
     .comment {
         color: #2c2c2c;
         margin: 60px 0 0 0;
@@ -235,7 +235,7 @@
 
     .comment--blue {
         background-color: rgb(48, 153, 250, 0.5);
-        z-index: 1;
+        height: 587px;
     }
     
     .comment__title {
@@ -253,12 +253,18 @@
         font-weight: 300;
         line-height: 1.7;
     }
-    /* Ikony nie są widoczne, być moe chodzi o z-index? */
+    
+    .comment__rating {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+    }
+
     .fa-solid {
-        display: inline-block;
-        height: 20px;
-        width: 20px;
-        color: white;
+        color: #FAD259;
+        width: 31px;
+        font-size: 21px;
+        margin: 2px;
     }
 
     .offer {
@@ -327,7 +333,7 @@
         margin: 0 auto;
         border-radius: 5px;
         background-color: white;
-        box-shadow: #eeeded 0px 0px 26px 5px;
+        box-shadow: #dfdfdf 0px 0px 24px 10px;
         padding-bottom: 55px;
         }
     
@@ -362,15 +368,17 @@
         text-align: center;
     }
 
-    /* Problem z rozsunięciem aplikacji, margin + padding nie działa, space-evenly odsuwa za szeroko */
     .apps__img {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         margin: 10px;
         margin-top: -16px;
     }
+
+    .apps__img--space {
+        margin: 7px;
+    }
     
-    /* Czy tutaj GRID? */
     .links {
         height: 760px;
         background-color: #1F1F1F;
@@ -415,13 +423,12 @@
         position: relative;
     }
 
-    /* Ikony nie są widoczne */
     .fa-brands {
         width: 40px;
         height: 40px;
         display: inline-block;
         color: white;
-        z-index: 1;
+        margin: 17px 17px 17px 19px;
     }
 
     .links__header {
