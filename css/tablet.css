@@ -32,6 +32,7 @@
         border-top: 3px solid white;
         transform: translateY(10px);
     }
+
     .header__nav::after {
         transform: translateY(23px);
     }
@@ -71,8 +72,8 @@
 
     .main img {
         bottom: 0;
-        max-width: 44%;
-        width: 43%;
+        max-width: 100%;
+        width: 100%;
         margin-bottom: -91px;
         padding-top: 113px;
         padding-right: 60px;
@@ -93,7 +94,7 @@
     .benefits {
         color: #2c2c2c;
         background-color: white;
-        margin-top: 50px;
+        margin-top: 9px;
         text-align: center;
     }
     
@@ -129,7 +130,7 @@
     }
     
     .benefits__img-1 {
-        margin-left: 155px;
+        margin-left: 144px;
         margin-top: 32px;
     }
 
@@ -144,7 +145,7 @@
         margin: 0 auto;
         margin-top: 32px;
     }
-/* Poprawić tekst */
+
     .benefits__item--middle {
         margin: 32px 20px 0 20px;
     }
@@ -154,7 +155,7 @@
     }
 
     .benefits__img-3 {
-        margin-right: 155px;
+        margin-right: 141px;
         margin-top: 32px;
     }
 
@@ -166,7 +167,7 @@
     .features {
         color: #2c2c2c;
         background-color: white;
-        margin-top: 210px;
+        margin-top: 80px;
         text-align: center;
     }
     
@@ -184,7 +185,7 @@
         margin: 0px auto;
         padding: 44px 47px 1px 35px;
         font-size: 34px;
-        font-weight: 200;
+        font-weight: 300;
         line-height: 1.5;
     }
 
@@ -222,7 +223,6 @@
         padding-right: 14px;
     }
 
-    /* Tło nie jest niebieskie */
     .comment {
         color: #2c2c2c;
         margin: 60px 0 0 0;
@@ -241,9 +241,10 @@
         margin: 0px auto;
         padding: 125px 6px 0 6px;
         font-size: 37px;
-        font-weight: 200;
+        font-weight: 300;
         margin-top: 46px;
         line-height: 1.2;
+        color: white;
     }
 
     .comment__description {
@@ -251,12 +252,14 @@
         font-size: 24px;
         font-weight: 300;
         line-height: 1.7;
+        color: white;
     }
 
     .comment__rating {
         display: flex;
         justify-content: center;
         margin: 40px;
+        color: white;
     }
 
     .fa-solid {
@@ -275,9 +278,9 @@
     
     .offer__title {
         margin: 0px auto;
-        padding: 103px 6px;
+        padding: 80px 6px;
         font-size: 35px;
-        font-weight: 200;
+        font-weight: 300;
         padding-bottom: 26px;
     }
 
@@ -286,14 +289,18 @@
         padding: 0px 6px;
         font-size: 20px;
         font-weight: 200;
-        padding-bottom: 10px;
+        padding-bottom: 33px;
     }
 
-    /* Dopasować wielkość ofert do oryginału */
     .offer__container--tablet {
         display: flex;
         justify-content: center;
+        background-color: white;
+    }
+    
+    .offer__container {
         box-shadow: #dfdfdf 0px 0px 24px 10px;
+
     }
 
     .basic__header, .team__header, .business__header {
@@ -303,6 +310,7 @@
         padding: 15px 40px;
         font-size: 25px;
     }
+   
     .basic__header {
         color: rgb(48, 153, 250);
         background-color: rgb(48, 153, 250, 0.1);
@@ -311,6 +319,10 @@
     .team__header {
         color: #F4AE5E;
         background-color: rgb(244, 174, 94, 0.1);
+    }
+
+    .team__header--middle {
+        margin: 0;
     }
 
     .business__header {
@@ -325,7 +337,7 @@
     }
 
     .offer__basic, .offer__team, .offer__business {
-        background-color: #FAFAFA;
+        background-color: white;
         padding: 1px;
     }
 
@@ -358,11 +370,10 @@
     .apps__title {
         padding: 40px 6px;
         font-size: 35px;
-        font-weight: 200;
+        font-weight: 300;
         padding-bottom: 26px;
         color: white;
         margin: 0 auto;
-        /* Nie działa wyśrodkowanie margin: 0 auto, musiałam przesuwać padding-left */
         margin-top: 30px;
         padding-top: 107px;
         padding-left: 2px;
@@ -384,24 +395,39 @@
         height: 760px;
         background-color: #1F1F1F;
         color: white;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "links__container--with-logo links__container--services"
+            "links__container--useful-links links__container--downloads";
         justify-content: flex-start;
     }
 
-    .links__container--left {
-        width: 50%;
+    .links__container--with-logo {
+        grid-area: "links__container--with-logo";
+    }
+
+    .links__container--useful-links {
+        grid-area: "links__container--useful-links";
+    }
+
+    .links__container--services {
+        grid-area: "links__container--services";
+    }
+
+    .links__container--downloads {
+        grid-area: "links__container--downloads";
     }
 
     .links__description {
         padding-left: 104px;
         font-size: 15px;
         line-height: 2;
-        padding-top: 20px;
+        padding-top: 21px;
     }
 
     .links__img {
-        padding: 13px;
-        padding-top: 83px;
+        padding: 99px 13px 0 13px;
         width: 28%;
         margin-left: 91px;
     }
@@ -429,7 +455,7 @@
         height: 40px;
         display: inline-block;
         color: white;
-        margin: 17px 17px 17px 19px;
+        margin: 12px 10px 17px 14px;
     }
 
     .links__header {
@@ -439,19 +465,14 @@
         padding-top: 27px;
     }
 
-    .links__header--left {
-        margin-left: 96px;
-        margin-top: 69px;
+    .links__header--useful-links {
+        padding-left: 105px;
     }
 
-    .links__header--right-down {
-        margin-top: 71px;
+    .links__header--services {
+        padding-top: 95px;
     }
-
-    .links__item--right-up {
-        margin-top: 20px;
-    }
-
+    
     .links__item {
         color: white;
         padding-left: 12px;
@@ -459,9 +480,9 @@
         font-size: 14px;
         line-height: 0.9;
     }
-
-    .links__item--left {
-        margin-left: 96px;
+    
+    .links__item--useful-links {
+        padding-left: 105px;
     }
 
     .links__container--right {
@@ -483,7 +504,6 @@
         padding-top: 0px;
     }
 
-    /* Ikona serca nie jest widoczna */
     .fa-regular {
         color: white;
         display: inline-block;

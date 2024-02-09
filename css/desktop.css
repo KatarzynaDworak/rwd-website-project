@@ -72,8 +72,8 @@
 
     .main img {
         bottom: 0;
-        max-width: 44%;
-        width: 43%;
+        max-width: 100%;
+        width: 100%;
         margin-bottom: -91px;
         padding-top: 113px;
         padding-right: 60px;
