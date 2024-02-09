@@ -1,51 +1,59 @@
 @media screen and (min-width: 900px) {
-    /* Dostosować proporcje w desktop do wzoru */
+
+    .container--background {
+        background-image: url(../images/banner/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     header {
-        background-color: #2c2c2c;
         color: white;
         display: flex;
         justify-content: space-between;
     }
 
     .header__logo {
-        margin: 12px;
+        margin: 30px 12px 12px 25px;
         padding: 2px;
-        margin-left: 25px;
     }
 
     .header__nav {
-        margin: 19px 17px 14px 10px;
-        width: 35px;
-        height: 30px;
-        border: 0;
-        border-top: 3px solid white;
-        background: transparent;
-        position: relative;
-        margin-right: 35px;
+        margin-top: 30px;
     }
 
-    .header__nav::before, .header__nav::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        border-top: 3px solid white;
-        transform: translateY(10px);
+    .nav__list {
+        display: flex;
+        justify-content: center;
     }
-    .header__nav::after {
-        transform: translateY(23px);
+
+    .nav__item {
+        margin: 11px;
+        font-size: 15px;
+    }
+
+    /* Nie działa transform - obrót strzałki */
+    .arrow__down {
+        transform: rotate(90deg);
+    }
+
+    .header__button {
+        margin-right: 26px;
+        margin-top: 30px;
+    }
+    
+    .header__button--download {
+        background-color: #46B3FA;
+        border-radius: 5px;
+        border: none;
+        width: 106px;
+        padding: 10px;
+        color: white;
+        font-size: 15px;
     }
 
     main {
         display: flex;
         justify-content: space-evenly;
-
-        background-image: url(../images/banner/banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        /* Tło nie rotuje się */
-        transform: rotateY('180deg');
         height: 100%;
         color: white;
     }
@@ -56,15 +64,15 @@
 
     .main_title {
         margin: 0px;
-        padding: 122px 0px 15px 102px;
-        font-size: 29px;
-        font-weight: 200;
+        padding: 231px 0px 15px 48px;
+        font-size: 46px;
+        font-weight: 300;
         line-height: 1.3em;
     }
 
     .main__description {
         margin: 0px;
-        padding: 0px 49px 15px 104px;
+        padding: 0px 0px 15px 48px;
         font-size: 1.2em;
         font-weight: 200;
         line-height: 1.4em;
@@ -73,10 +81,10 @@
     .main img {
         bottom: 0;
         max-width: 100%;
-        width: 100%;
+        width: 66%;
         margin-bottom: -91px;
-        padding-top: 113px;
-        padding-right: 60px;
+        padding-top: 143px;
+        padding-right: 39px;
     }
 
     .main__btn {
@@ -85,7 +93,7 @@
         font-size: 21px;
         font-weight: 100;
         padding: 15px 17px;
-        margin: 45px 0 88px 103px;
+        margin: 45px 0 88px 48px;
         border: none;
         border-radius: 8px;
         width: 195px;
@@ -101,8 +109,8 @@
     .benefits__titles {
         margin: 0px;
         padding: 167px 170px 15px 170px;
-        font-size: 39px;
-        font-weight: 200;
+        font-size: 48px;
+        font-weight: 300;
         line-height: 1.2;
     }
 
@@ -130,12 +138,12 @@
     }
     
     .benefits__img-1 {
-        margin-left: 155px;
+        margin-left: 230px;
         margin-top: 32px;
     }
 
     .benefits__item--left {
-        margin-left: 128px;
+        margin-left: 186px;
         margin-top: 32px;
         margin-right: 20px;
     }
@@ -145,7 +153,7 @@
         margin: 0 auto;
         margin-top: 32px;
     }
-/* Poprawić tekst */
+
     .benefits__item--middle {
         margin: 32px 20px 0 20px;
     }
@@ -155,7 +163,7 @@
     }
 
     .benefits__img-3 {
-        margin-right: 155px;
+        margin-right: 177px;
         margin-top: 32px;
     }
 
@@ -167,7 +175,7 @@
     .features {
         color: #2c2c2c;
         background-color: white;
-        margin-top: 210px;
+        margin-top: 90px;
         text-align: center;
     }
     
@@ -183,10 +191,11 @@
 
     .features__title {
         margin: 0px auto;
-        padding: 44px 47px 1px 35px;
-        font-size: 34px;
-        font-weight: 200;
+        padding: 44px 20px 1px 0px;
+        font-size: 30px;
+        font-weight: 300;
         line-height: 1.5;
+        margin-left: 33px;
     }
 
     .features__description {
@@ -198,6 +207,7 @@
         margin-top: -4px;
         margin-right: 30px;
         margin-left: 30px;
+        text-align: left;
     }
 
     .features__btn {
@@ -211,7 +221,7 @@
         border-radius: 6px;
         width: 202px;
         margin-right: 286px;
-        margin-left: 103px;
+        margin-left: 46px;
         margin-top: 10px;
         height: 52px;
     }
@@ -219,10 +229,9 @@
     .features__img {
         max-width: 209%;
         width: 155%;
-        margin-top: 138px;
+        margin-top: 18px;
         padding-right: 14px;
     }
-
 
     .comment {
         color: #2c2c2c;
@@ -241,23 +250,30 @@
     .comment__title {
         margin: 0px auto;
         padding: 125px 6px 0 6px;
-        font-size: 37px;
-        font-weight: 200;
+        font-size: 48px;
+        font-weight: 300;
         margin-top: 46px;
         line-height: 1.2;
+        color: white;
     }
 
     .comment__description {
-        padding: 43px 15px 0px 15px;
+        padding: 43px 30px 0 30px;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 1.7;
+        color: white;
         font-size: 24px;
         font-weight: 300;
         line-height: 1.7;
+        color: white;
     }
     
     .comment__rating {
         display: flex;
         justify-content: center;
         margin: 40px;
+        color: white;
     }
 
     .fa-solid {
@@ -270,24 +286,24 @@
     .offer {
         color: #2c2c2c;
         background-color: white;
-        margin-top: 15px;
+        margin-top: 0;
         text-align: center;
     }
     
     .offer__title {
         margin: 0px auto;
         padding: 103px 6px;
-        font-size: 35px;
-        font-weight: 200;
+        font-size: 48px;
+        font-weight: 300;
         padding-bottom: 26px;
     }
 
     .offer__description {
         margin: 0px auto;
-        padding: 0px 6px;
-        font-size: 20px;
+        padding: 0px 30px;
+        font-size: 19px;
         font-weight: 200;
-        padding-bottom: 10px;
+        padding-bottom: 35px;
     }
 
     .offer__container--tablet {
@@ -302,6 +318,7 @@
         padding: 15px 40px;
         font-size: 25px;
     }
+
     .basic__header {
         color: rgb(48, 153, 250);
         background-color: rgb(48, 153, 250, 0.1);
@@ -310,6 +327,10 @@
     .team__header {
         color: #F4AE5E;
         background-color: rgb(244, 174, 94, 0.1);
+    }
+
+    .team__header--middle {
+        margin: 0;
     }
 
     .business__header {
@@ -352,6 +373,7 @@
         background-color: rgb(24, 139, 255, 0.7);
         height: 400px;
         margin-top: 37px;
+        display: flex;
     }
 
     .apps__title {
@@ -361,11 +383,11 @@
         padding-bottom: 26px;
         color: white;
         margin: 0 auto;
-        /* Nie działa wyśrodkowanie margin: 0 auto, musiałam przesuwać padding-left */
         margin-top: 30px;
         padding-top: 107px;
-        padding-left: 2px;
-        text-align: center;
+        padding-left: 0px;
+        text-align: left;
+        width: 50%;
     }
 
     .apps__img {
@@ -373,6 +395,9 @@
         justify-content: center;
         margin: 10px;
         margin-top: -16px;
+        max-width: 41%;
+        width: 13%;
+        margin-right: 149px;
     }
 
     .apps__img--space {
@@ -433,9 +458,9 @@
 
     .links__header {
         color: white;
-        font-size: 27px;
-        padding-left: 12px;
-        padding-top: 27px;
+        font-size: 20px;
+        padding-left: 33px;
+        padding-top: 80px;
     }
 
     .links__header--left {
@@ -443,17 +468,9 @@
         margin-top: 69px;
     }
 
-    .links__header--right-down {
-        margin-top: 71px;
-    }
-
-    .links__item--right-up {
-        margin-top: 20px;
-    }
-
     .links__item {
         color: white;
-        padding-left: 12px;
+        padding-left: 34px;
         padding-top: 29px;
         font-size: 14px;
         line-height: 0.9;
@@ -482,11 +499,14 @@
         padding-top: 0px;
     }
 
-    /* Ikona serca nie jest widoczna */
     .fa-regular {
         color: white;
         display: inline-block;
         width: 20px;
         height: 20px;
+    }
+
+    .fa-brands {
+        margin: 12px 17px 17px 14px;
     }
 }

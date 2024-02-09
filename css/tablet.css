@@ -37,6 +37,10 @@
         transform: translateY(23px);
     }
 
+    .nav__list, .header__button {
+        display: none;
+    }
+
     main {
         display: flex;
         justify-content: space-evenly;

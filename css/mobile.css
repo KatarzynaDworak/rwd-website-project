@@ -35,6 +35,10 @@
         transform: translateY(23px);
     }
 
+    .nav__list, .header__button {
+        display: none;
+    }
+
     main {
         background-image: url(../images/banner/banner.png);
         background-repeat: no-repeat;
