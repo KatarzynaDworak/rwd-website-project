@@ -1,3 +1,37 @@
+Main goal of my work was to:
+code Responsive Web Design (RWD) site 📱
+do it in a way that it looks decent on mobiles, tablets and desktops 🖥️
+use semantic HTML (BEM) 📝
+use Sass 🦋
+make project as readable as it is possible (clean code, many directories, BEM, small sass files) 📖
+
+
+🛠️ Languages and Tools used:
+HTML5
+
+CSS3
+
+Sass
+
+Git
+
+GitHub
+
+Terminal
+
+Visual Studio Code
+
+
+
+
+
+💙 You can find me on:
+
+LinkedIn Profile
+
+
+
+
 SEKCJA NOTATEK - usuń po napisaniu README :)
 funkcjonalności programu
 problemy i ich rozwiązania + fragmenty kodu
