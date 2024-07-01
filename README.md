@@ -1,4 +1,4 @@
-Thanks for viewing my Project ✨
+# Thanks for viewing my Project ✨
 
 Main goal of my work was to:
 - code Responsive Web Design (RWD) site 📱
