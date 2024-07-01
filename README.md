@@ -74,7 +74,9 @@ Visual Studio Code
 ##### 💙 You can find me on:
 LinkedIn Profile (link)
 
-
+##### Thanks (+links)
+To Colorlib for free templates.
+To my mentor for creating the task and for the code review.
 
 # DO USUNIĘCIA
 SEKCJA NOTATEK - usuń po napisaniu README :)
