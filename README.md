@@ -1,6 +1,6 @@
 # Thanks for viewing my Project ✨
 
-## ⭐ Live Deployment: (link)
+## ⭐ Live Deployment: (link - github pages)
 
 ### Main goal of my work was to:
 - code **Responsive Web Design (RWD)** site 📱
