@@ -1,7 +1,7 @@
 # Thanks for viewing my Project ✨
 
 
-## :star: Live Deployment: (https://katarzynadworak.github.io/rwd-website-project/)
+## :star: Live Deployment: https://katarzynadworak.github.io/rwd-website-project/
 
 ## Main goal of my work was to:
 - code **Responsive Web Design (RWD)** site 📱
