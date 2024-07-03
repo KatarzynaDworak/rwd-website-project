@@ -31,8 +31,12 @@
         font-size: 15px;
     }
 
-    /* Nie działa transform - obrót strzałki */
     .arrow__down {
+        display: inline-block;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .nav__item:hover .arrow__down {
         transform: rotate(90deg);
     }
 
