@@ -58,6 +58,17 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
 [facebook]: https://www.facebook.com/katarzynadworakk
 
 #### Solutions provided in the project
+1. ROTACJA STRZAŁEK
+       .arrow__down {
+        display: inline-block;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .nav__item:hover .arrow__down {
+        transform: rotate(90deg);
+    }
+
+
 - CSS file created with node-sass library.
 
 - Sass mixins used to define breakpoints – having all breakpoints in one place makes it possible to change them at any time, all at once. See the example of - mixin for desktop breakpoint beneath:
