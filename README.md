@@ -1,5 +1,6 @@
 # Thanks for viewing my Project ✨
 
+![ a main page screenshot](./images/screen.png)
 
 ## :star: Live Deployment: https://katarzynadworak.github.io/rwd-website-project/
 
