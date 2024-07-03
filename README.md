@@ -84,6 +84,7 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
         letter-spacing: 1px; /* Oddalenie liter */
         transform: translateX(5px); /* Przesunięcie elementu */
     }
+    
 3. Zmieniające się przyciski po najechaniu myszką
     .header__button {
         margin-right: 26px;
