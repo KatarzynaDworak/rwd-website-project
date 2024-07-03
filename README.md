@@ -6,7 +6,6 @@
 - code **Responsive Web Design (RWD)** site 📱
 - do it in a way that it **looks decent on mobiles, tablets and desktops** 🖥️
 - use **semantic HTML** (BEM) 📝
-- use **Sass** 🦋
 - make project **as readable as it is possible** (clean code, many directories, BEM, small sass files) 📖
 
 <br />
@@ -18,8 +17,6 @@
 <img align="left" alt="HTML5" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 
 <img align="left" alt="CSS3" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-
-<img align="left" alt="Sass" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
 
 <img align="left" alt="Git" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
 
