@@ -134,7 +134,7 @@
         display: flex;
         justify-content: space-evenly;
         height: 100%;
-        color: white;
+        color: #f2f4f4;
     }
 
     .main__container {
@@ -186,7 +186,7 @@
 
     .benefits {
         color: #2c2c2c;
-        background-color: white;
+        background-color: #f2f4f4;
         margin-top: 50px;
         text-align: center;
     }
@@ -274,7 +274,7 @@
 
     .features {
         color: #2c2c2c;
-        background-color: white;
+        background-color: #f2f4f4;
         margin-top: 90px;
         text-align: center;
     }
@@ -361,7 +361,7 @@
         font-weight: 300;
         margin-top: 46px;
         line-height: 1.2;
-        color: white;
+        color: #f2f4f4;
     }
 
     .comment__description {
@@ -369,18 +369,18 @@
         font-size: 21px;
         font-weight: 300;
         line-height: 1.7;
-        color: white;
+        color: #f2f4f4;
         font-size: 24px;
         font-weight: 300;
         line-height: 1.7;
-        color: white;
+        color: #f2f4f4;
     }
     
     .comment__rating {
         display: flex;
         justify-content: center;
         margin: 40px;
-        color: white;
+        color: #f2f4f4;
     }
 
     .fa-solid {
@@ -392,7 +392,7 @@
 
     .offer {
         color: #2c2c2c;
-        background-color: white;
+        background-color: #f2f4f4;
         margin-top: 0;
         text-align: center;
     }
@@ -460,13 +460,13 @@
         width: 95%;
         margin: 0 auto;
         border-radius: 5px;
-        background-color: white;
+        background-color: #f2f4f4;
         box-shadow: #dfdfdf 0px 0px 24px 10px;
         padding-bottom: 55px;
     }
     
     .offer__btn {
-        background-color: white;
+        background-color: #f2f4f4;
         border: 1px solid #2A93F9;
         border-radius: 5px;
         margin: 6px;
@@ -479,7 +479,7 @@
 
     .offer__btn:hover {
         background-color: #2A93F9;
-        color: white;
+        color: #f2f4f4;
     }
 
     .apps {
@@ -494,7 +494,7 @@
         font-size: 35px;
         font-weight: 200;
         padding-bottom: 26px;
-        color: white;
+        color: #f2f4f4;
         margin: 0 auto;
         margin-top: 30px;
         padding-top: 107px;
@@ -520,7 +520,7 @@
     .links {
         height: 760px;
         background-color: #1F1F1F;
-        color: white;
+        color: #f2f4f4;
         display: flex;
         justify-content: flex-start;
     }
@@ -552,7 +552,7 @@
     .icon__item {
         background-color: rgb(216 211 211 / 30%);
         border-radius: 50%;
-        color: white;
+        color: #f2f4f4;
         width: 40px;
         height: 40px;
         display: inline-block;
@@ -565,12 +565,12 @@
         width: 40px;
         height: 40px;
         display: inline-block;
-        color: white;
+        color: #f2f4f4;
         margin: 17px 17px 17px 19px;
     }
 
     .links__header {
-        color: white;
+        color: #f2f4f4;
         font-size: 20px;
         padding-left: 33px;
         padding-top: 80px;
@@ -582,7 +582,7 @@
     }
 
     .links__item {
-        color: white;
+        color: #f2f4f4;
         padding-left: 34px;
         padding-top: 29px;
         font-size: 14px;
@@ -599,7 +599,7 @@
 
     .footer, .footer__item {
         background-color: #000000;
-        color: white;
+        color: #f2f4f4;
         height: 126px;
         padding: 31px;
         padding-top: 43px;
@@ -613,7 +613,7 @@
     }
 
     .fa-regular {
-        color: white;
+        color: #f2f4f4;
         display: inline-block;
         width: 20px;
         height: 20px;
