@@ -59,6 +59,7 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
 
 #### Solutions provided in the project
 1. ROTACJA STRZAŁEK
+   
        .arrow__down {
         display: inline-block;
         transition: transform 0.3s ease-in-out;
@@ -68,7 +69,8 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
         transform: rotate(90deg);
     }
 
-2. Animacja menu (pogrubienie + letter-spacing po najechaniu)
+3. Animacja menu (pogrubienie + letter-spacing po najechaniu)
+   
 
     /* Dodaj styl bazowy dla elementów menu */
     .nav__item {
@@ -79,6 +81,7 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
     }
 
 /* Styl dla elementów menu po najechaniu kursorem */
+
     .nav__item:hover {
         font-weight: bold; /* Pogrubienie tekstu */
         letter-spacing: 1px; /* Oddalenie liter */
@@ -86,6 +89,7 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
     }
     
 3. Zmieniające się przyciski po najechaniu myszką
+   
     .header__button {
         margin-right: 26px;
         margin-top: 30px;
