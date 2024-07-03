@@ -26,11 +26,6 @@
         justify-content: center;
     }
 
-    /* .nav__item {
-        margin: 11px;
-        font-size: 15px;
-    } */
-
     /* Dodaj styl bazowy dla elementów menu */
     .nav__item {
         margin: 11px;
@@ -39,10 +34,10 @@
         transition: font-weight 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
     }
 
-/* Styl dla elementów menu po najechaniu kursorem */
+    /* Styl dla elementów menu po najechaniu kursorem */
     .nav__item:hover {
-        font-weight: bold; /* Pogrubienie tekstu */
-        letter-spacing: 1px; /* Oddalenie liter */
+        font-weight: bold; 
+        letter-spacing: 1px; 
         transform: translateX(5px); /* Przesunięcie elementu */
     }
 
@@ -62,13 +57,19 @@
     }
     
     .header__button--download {
-        background-color: #46B3FA;
+        background-color: #0885f6;
         border-radius: 5px;
-        border: none;
+        border: 2px solid #0885f6;
         width: 106px;
         padding: 10px;
-        color: white;
+        color: #f2f4f4;
         font-size: 15px;
+        transition: .3s linear;
+    }
+
+    .header__button--download:hover {
+        background-color: #f2f4f4;
+        color: #0885f6;
     }
 
     main {
@@ -109,14 +110,20 @@
 
     .main__btn {
         background-color: #6FEBED;
-        color: white;
+        color: #f2f4f4;
         font-size: 21px;
         font-weight: 100;
         padding: 15px 17px;
         margin: 45px 0 88px 48px;
-        border: none;
+        border: 2px solid #6FEBED;
         border-radius: 8px;
         width: 195px;
+        transition: .3s linear;
+    }
+
+    .main__btn:hover {
+        background-color: #f2f4f4;
+        color: #6FEBED;
     }
 
     .benefits {
@@ -155,8 +162,13 @@
     
     .benefits__img-1 {
         background-color: #2A93F9;
+        transition: .3s linear;
     }
     
+    .benefits__img-1:hover {
+        transform: scale(1.2);
+    }
+
     .benefits__img-1 {
         margin-left: 230px;
         margin-top: 32px;
@@ -172,6 +184,11 @@
         background-color: #F19D5A;
         margin: 0 auto;
         margin-top: 32px;
+        transition: .3s linear;
+    }
+    
+    .benefits__img-2:hover {
+        transform: scale(1.2);
     }
 
     .benefits__item--middle {
@@ -180,6 +197,11 @@
 
     .benefits__img-3 {
         background-color: #7BF08E;
+        transition: .3s linear;
+    }
+    
+    .benefits__img-3:hover {
+        transform: scale(1.2);
     }
 
     .benefits__img-3 {
@@ -232,19 +254,26 @@
 
     .features__btn {
         background-color: #1581F5;
-        color: white;
+        color: #f2f4f4;
         font-size: 17px;
         font-weight: 100;
-        padding: 18px 22px;
+        padding: 14px 22px;
         margin-bottom: 37px;
-        border: none;
+        border: 2px solid #1581F5;
         border-radius: 6px;
         width: 202px;
         margin-right: 286px;
         margin-left: 46px;
         margin-top: 10px;
         height: 52px;
+        transition: .3s linear;
     }
+
+    .features__btn:hover {
+        background-color: #f2f4f4;
+        color: #0885f6;
+    }
+
 
     .features__img {
         max-width: 209%;
@@ -387,6 +416,12 @@
         color: #2A93F9;
         padding: 13px;
         font-size: 19px;
+        transition: .3s linear;
+    }
+
+    .offer__btn:hover {
+        background-color: #2A93F9;
+        color: white;
     }
 
     .apps {
