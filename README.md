@@ -62,21 +62,9 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
 
 
 [website]: google.com
-[linkedin]: https://www.linkedin.com/in/mateusz-sowa-720a721a8/
-[instagram]: https://www.instagram.com/msovva/?hl=pl
-[facebook]: https://www.facebook.com/xMatisx2
-
-
-# Thanks for viewing my Project ✨
-
-## ⭐ Live Deployment: (link - github pages)
-
-### Main goal of my work was to:
-- code **Responsive Web Design (RWD)** site 📱
-- do it in a way that it **looks decent on mobiles, tablets and desktops** 🖥️
-- use **semantic HTML** (BEM) 📝
-- use **Sass** 🦋
-- make project **as readable as it is possible** (clean code, many directories, BEM, small sass files) 📖
+[linkedin]: https://www.linkedin.com/in/katarzynadworak/
+[instagram]: https://www.instagram.com/katarzynadworakk
+[facebook]: https://www.facebook.com/katarzynadworakk
 
 #### Solutions provided in the project
 - CSS file created with node-sass library.
