@@ -31,6 +31,7 @@
         border-top: 3px solid #f2f4f4;
         transform: translateY(10px);
     }
+
     .header__nav::after {
         transform: translateY(23px);
     }
@@ -274,6 +275,7 @@
         padding: 15px 40px;
         font-size: 25px;
     }
+    
     .basic__header {
         color: rgb(48, 153, 250);
         background-color: rgb(48, 153, 250, 0.1);
