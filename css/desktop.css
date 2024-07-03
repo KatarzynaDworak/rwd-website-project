@@ -26,7 +26,6 @@
         justify-content: center;
     }
 
-    /* Dodaj styl bazowy dla elementów menu */
     .nav__item {
         margin: 11px;
         font-size: 15px;
@@ -34,49 +33,38 @@
         transition: font-weight 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
     }
 
-    /* Styl dla elementów menu po najechaniu kursorem */
     .nav__item:hover {
         font-weight: bold; 
         letter-spacing: 1px; 
-        transform: translateX(5px); /* Przesunięcie elementu */
-    }
-
-
-    .arrow__down {
-        display: inline-block;
-        transition: transform 0.3s ease-in-out;
-    }
-    
-    .nav__item:hover .arrow__down {
-        transform: rotate(90deg);
+        transform: translateX(5px);
     }
 
     .menu__item {
         padding: 10px;
-      }
+    }
       
-      .menu__item--dropped {
+    .menu__item--dropped {
         font-size: 14px;
         padding: 10px;
         padding-top: 0;
         position: relative;
         text-align: center;
-      }
+    }
       
-      .menu__item--dropped::before {
+    .menu__item--dropped::before {
         position: absolute;
         content: '>';
         color: #f2f4f4;
         cursor: pointer;
         top: 0;
         left: -2px;
-      }
+    }
       
-      .menu__item--dropdown {
+    .menu__item--dropdown {
         position: relative;
-      }
+    }
       
-      .menu__item--dropdown::after {
+    .menu__item--dropdown::after {
         position: absolute;
         content: '>';
         color: #f2f4f4;
@@ -84,13 +72,13 @@
         top: 10px;
         right: 15px;
         transform: rotate(90deg);
-      }
+    }
       
-      .menu__item--dropdown:hover .dropdown__list {
+    .menu__item--dropdown:hover .dropdown__list {
         display: block;
-      }
+    }
       
-      .menu__link {
+    .menu__link {
         color: #f2f4f4;
         font-size: 14px;
         font-weight: 300;
@@ -98,28 +86,28 @@
         text-transform: capitalize;
         padding: 20px;
         transition: .2s linear;
-      }
+    }
       
-      .menu__link:hover {
+    .menu__link:hover {
         font-weight: 700;
         letter-spacing: 2px;
-      }
+    }
       
-      .menu__link--dropped {
+    .menu__link--dropped {
         padding: 0 0;
-      }
+    }
       
-      .menu__link--dropped:hover {
+    .menu__link--dropped:hover {
         font-weight: 700;
         letter-spacing: 0;
-      }
+    }
       
-      .dropdown__list {
+    .dropdown__list {
         display: none;
         left: 15px;
         position: absolute;
         top: 100%;
-      }
+    }
 
     .header__button {
         margin-right: 26px;
@@ -475,7 +463,7 @@
         background-color: white;
         box-shadow: #dfdfdf 0px 0px 24px 10px;
         padding-bottom: 55px;
-        }
+    }
     
     .offer__btn {
         background-color: white;
