@@ -59,6 +59,7 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
 
 #### Solutions provided in the project
 1. ROTACJA STRZAŁEK
+   
        .arrow__down {
         display: inline-block;
         transition: transform 0.3s ease-in-out;
@@ -68,7 +69,47 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
         transform: rotate(90deg);
     }
 
+3. Animacja menu (pogrubienie + letter-spacing po najechaniu)
+   
 
+    /* Dodaj styl bazowy dla elementów menu */
+    .nav__item {
+        margin: 11px;
+        font-size: 15px;
+        position: relative;
+        transition: font-weight 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
+    }
+
+/* Styl dla elementów menu po najechaniu kursorem */
+
+    .nav__item:hover {
+        font-weight: bold; /* Pogrubienie tekstu */
+        letter-spacing: 1px; /* Oddalenie liter */
+        transform: translateX(5px); /* Przesunięcie elementu */
+    }
+    
+3. Zmieniające się przyciski po najechaniu myszką
+   
+    .header__button {
+        margin-right: 26px;
+        margin-top: 30px;
+    }
+    
+    .header__button--download {
+        background-color: #0885f6;
+        border-radius: 5px;
+        border: 2px solid #0885f6;
+        width: 106px;
+        padding: 10px;
+        color: #f2f4f4;
+        font-size: 15px;
+        transition: .3s linear;
+    }
+
+    .header__button--download:hover {
+        background-color: #f2f4f4;
+        color: #0885f6;
+    }
 - CSS file created with node-sass library.
 
 - Sass mixins used to define breakpoints – having all breakpoints in one place makes it possible to change them at any time, all at once. See the example of - mixin for desktop breakpoint beneath:
