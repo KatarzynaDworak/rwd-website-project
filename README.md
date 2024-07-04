@@ -1,63 +1,20 @@
 # Thanks for viewing my Project ✨
 
 ![ a main page screenshot](./images/screen.png)
+<br />
 
 ## :star: Live Deployment: https://katarzynadworak.github.io/rwd-website-project/
+<br />
 
 ## Main goal of my work was to:
 - code **Responsive Web Design (RWD)** site 📱
 - do it in a way that it **looks decent on mobiles, tablets and desktops** 🖥️
 - use **semantic HTML** (BEM) 📝
 - make project **as readable as it is possible** (clean code, many directories, BEM, small sass files) 📖
-
-<br />
 <br />
 
-## 🛠️ Languages and Tools used: 
-
-
-<img align="left" alt="HTML5" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-
-<img align="left" alt="CSS3" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-
-<img align="left" alt="Git" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-
-<img align="left" alt="GitHub" width="50px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
-
-<img align="left" alt="Terminal" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
-
-<img align="left" alt="Visual Studio Code" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
-
-<br />
-<br />
-<br />
-<br />
-
-### :blue_heart:  You can find me on:
-<br/>
-
- Portfolio Website *(during construction*)* [<img align="left" alt="Portfolio" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
-
- LinkedIn Profile [<img align="left" alt="Katarzynadworak LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
- 
- Maybe my Instagram? [<img align="left" alt="@katarzynadworakk instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-
- Or Facebook? [<img align="left" alt="" width="22px" src="https://www.flaticon.com/svg/static/icons/svg/61/61045.svg" />][facebook]
-
-### Copyright
-
-Wszelkie prawa autorskie oraz pokrewne do szablonu i elementów wchodzacych w jego skład należą do [colorlib.com](https://colorlib.com).
-Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licencją](https://colorlib.com/wp/licence/).
-
-
-
-[website]: google.com
-[linkedin]: https://www.linkedin.com/in/katarzynadworak/
-[instagram]: https://www.instagram.com/katarzynadworakk
-[facebook]: https://www.facebook.com/katarzynadworakk
-
-#### Solutions provided in the project
-1. ROTACJA STRZAŁEK
+### Solutions provided in the project
+1. <Arrow rotation>
    
        .arrow__down {
         display: inline-block;
@@ -67,8 +24,8 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
     .nav__item:hover .arrow__down {
         transform: rotate(90deg);
     }
-
-3. Animacja menu (pogrubienie + letter-spacing po najechaniu)
+</br>
+2. <Animacja menu (pogrubienie + letter-spacing po najechaniu)>
    
 
     /* Dodaj styl bazowy dla elementów menu */
@@ -78,7 +35,7 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
         position: relative;
         transition: font-weight 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
     }
-
+</br>
 /* Styl dla elementów menu po najechaniu kursorem */
 
     .nav__item:hover {
@@ -86,7 +43,8 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
         letter-spacing: 1px; /* Oddalenie liter */
         transform: translateX(5px); /* Przesunięcie elementu */
     }
-    
+   
+</br>  
 3. Zmieniające się przyciski po najechaniu myszką
    
     .header__button {
@@ -109,6 +67,8 @@ Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licenc
         background-color: #f2f4f4;
         color: #0885f6;
     }
+
+    </br>
 - CSS file created with node-sass library.
 
 - Sass mixins used to define breakpoints – having all breakpoints in one place makes it possible to change them at any time, all at once. See the example of - mixin for desktop breakpoint beneath:
@@ -160,6 +120,47 @@ I found a way to improve margin and padding changes depending on resolution. In 
 Thanks
 To Colorlib for free templates.
 To my mentor for creating the task and for the code review.
+
+## 🛠️ Languages and Tools used: 
+
+
+<img align="left" alt="HTML5" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
+
+<img align="left" alt="CSS3" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+
+<img align="left" alt="Git" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
+
+<img align="left" alt="GitHub" width="50px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
+
+<img align="left" alt="Terminal" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
+
+<img align="left" alt="Visual Studio Code" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
+<br />
+
+### :blue_heart:  You can find me on:
+<br/>
+
+ Portfolio Website *(during construction*)* [<img align="left" alt="Portfolio" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
+
+ LinkedIn Profile [<img align="left" alt="Katarzynadworak LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+ 
+ Maybe my Instagram? [<img align="left" alt="@katarzynadworakk instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+
+ Or Facebook? [<img align="left" alt="" width="22px" src="https://www.flaticon.com/svg/static/icons/svg/61/61045.svg" />][facebook]
+<br />
+
+### Copyright
+
+Wszelkie prawa autorskie oraz pokrewne do szablonu i elementów wchodzacych w jego skład należą do [colorlib.com](https://colorlib.com).
+Szablon i jego elementy mogą być wykorzystywane na zasadach zgodnych z [licencją](https://colorlib.com/wp/licence/).
+
+[website]: google.com
+[linkedin]: https://www.linkedin.com/in/katarzynadworak/
+[instagram]: https://www.instagram.com/katarzynadworakk
+[facebook]: https://www.facebook.com/katarzynadworakk
+<br />
+
+
 
 #### 🛠️ Languages and Tools used:
 HTML5
