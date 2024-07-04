@@ -10,32 +10,33 @@
 - code **Responsive Web Design (RWD)** site 📱
 - do it in a way that it **looks decent on mobiles, tablets and desktops** 🖥️
 - use **semantic HTML** (BEM) 📝
-- make project **as readable as it is possible** (clean code, many directories, BEM, small sass files) 📖
+- make project **as readable as it is possible** (clean code, many directories, BEM) 📖
 <br />
 
 ### Solutions provided in the project
-1. Hamburger rozwijany 
-1. <Arrow rotation>
-   
-       .arrow__down {
-        display: inline-block;
-        transition: transform 0.3s ease-in-out;
-    }
-    
-    .nav__item:hover .arrow__down {
-        transform: rotate(90deg);
-    }
-</br>
-2. <Animacja menu (pogrubienie + letter-spacing po najechaniu)>
-   
+This project uses modern CSS functions like min(), max(), and clamp() to create a responsive and adaptive design. These functions help ensure that the layout and elements adjust smoothly across different screen sizes and resolutions.
 
-    /* Dodaj styl bazowy dla elementów menu */
-    .nav__item {
-        margin: 11px;
-        font-size: 15px;
-        position: relative;
-        transition: font-weight 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
-    }
+Key Features:
+Clamp() Function:
+
+clamp() is used extensively to define flexible padding, margins, font sizes, and other properties. This allows for setting minimum, preferred, and maximum values for various elements, ensuring they scale properly on different devices.
+Example: padding: clamp(10px, 2vw, 20px); ensures that padding will be at least 10px, preferably 2% of the viewport width, but not more than 20px.
+Min() and Max() Functions:
+
+These functions are used to set upper and lower bounds for various properties, allowing for more control over the layout.
+Example: letter-spacing: max(1px, 0.1vw); ensures that letter spacing will be at least 1px but can increase to 0.1% of the viewport width.
+Benefits:
+Responsiveness: Elements adjust dynamically to the screen size, providing a consistent and user-friendly experience across different devices.
+Maintainability: Using these functions reduces the need for numerous media queries, simplifying the CSS code.
+Design Consistency: Ensures a consistent look and feel, regardless of the screen size, by setting appropriate limits on property values.
+This approach leverages the power of modern CSS to create a more efficient, scalable, and maintainable codebase.
+
+
+
+1. Hamburger rozwijany
+2. Responsywne obrazy 
+</br>
+
 </br>
 /* Styl dla elementów menu po najechaniu kursorem */
 
@@ -70,28 +71,7 @@
     }
 
     </br>
-- CSS file created with node-sass library.
 
-- Sass mixins used to define breakpoints – having all breakpoints in one place makes it possible to change them at any time, all at once. See the example of - mixin for desktop breakpoint beneath:
-
-@mixin desktop {
-	@media (min-width: 1330px) {
-		@content;
-	}
-}
-- Responsive font size created with CSS function: clamp(). Using vw unit for the middle parameter value makes the font grow and shrink smoothly while resolution changes. As clamp() is not fully supported yet, it was necessary to provide also the media queries breakpoints. Here is the example of using both - mixins and clamp():
-  
-&__headline {
-		font-size: 1.3rem;
-	@include tablet-and-landscape {
-		font-size: 1.5rem;
-	}
-	@include desktop{
-		font-size: 1.7rem;
-	}
-	@supports (font-size: clamp(1.3rem, 2vw, 1.7rem)) {
-		font-size: clamp(1.3rem, 2vw, 1.7rem);
-	}}
 - Linear-gradient used for CSS background property along with an image allowed to achieve the effect of colored overlay. As linear-gradient is now well-supported across different browsers, using it is a more convenient and space-saving way of creating an overlay than doing it with CSS pseudo-elements.
 background: linear-gradient(rgba(97, 179, 255, 0.9), rgba(97, 179, 255, 0.9)),
 		    url(../images/banner/testmonial.png) no-repeat center center/cover;
