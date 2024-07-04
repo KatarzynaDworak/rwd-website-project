@@ -21,6 +21,7 @@ Clamp() Function:
 
 clamp() is used extensively to define flexible padding, margins, font sizes, and other properties. This allows for setting minimum, preferred, and maximum values for various elements, ensuring they scale properly on different devices.
 Example: padding: clamp(10px, 2vw, 20px); ensures that padding will be at least 10px, preferably 2% of the viewport width, but not more than 20px.
+
 Min() and Max() Functions:
 
 These functions are used to set upper and lower bounds for various properties, allowing for more control over the layout.
