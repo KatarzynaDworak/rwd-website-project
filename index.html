@@ -54,34 +54,40 @@
                 <img src="./images/logo.png" alt="logo">
             </div>
             <div class="header__nav nav">
-                <ul class="nav__list">
-                    <li class="nav__item">Home</li>
-                    <li class="nav__item">Features</li>
-                    <li class="nav__item">Pricing</li>
-                    <li class="menu__item menu__item--dropdown">
-                        <a href="#" class="menu__link">Blog</a> 
-                        <ul class="dropdown__list">
-                            <li class="menu__item menu__item--dropped">
-                                <a href="#" class="menu__link menu__link--dropped">Posts</a>
-                            </li>
-                            <li class="menu__item menu__item--dropped">
-                                <a href="#" class="menu__link menu__link--dropped">Archive</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="menu__item menu__item--dropdown">
-                        <a href="#" class="menu__link">Pages</a>
-                        <ul class="dropdown__list">
-                            <li class="menu__item menu__item--dropped">
-                                <a href="#" class="menu__link menu__link--dropped">AppLab</a>
-                            </li>
-                            <li class="menu__item menu__item--dropped">
-                                <a href="#" class="menu__link menu__link--dropped">Nova template</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav__item">Contact</li>
-                </ul>
+                <input type="checkbox" id="menu-switch" class="header__input">
+                <label for="menu-switch" class="header__label">
+                    <div class="header__hamburger"></div>
+                </label>
+                <nav class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Features</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+                        <li class="menu__item menu__item--dropdown">
+                            <a href="#" class="menu__link">Blog</a> 
+                            <ul class="dropdown__list">
+                                <li class="menu__item menu__item--dropped">
+                                    <a href="#" class="menu__link menu__link--dropped">Posts</a>
+                                </li>
+                                <li class="menu__item menu__item--dropped">
+                                    <a href="#" class="menu__link menu__link--dropped">Archive</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__item menu__item--dropdown">
+                            <a href="#" class="menu__link">Pages</a>
+                            <ul class="dropdown__list">
+                                <li class="menu__item menu__item--dropped">
+                                    <a href="#" class="menu__link menu__link--dropped">AppLab</a>
+                                </li>
+                                <li class="menu__item menu__item--dropped">
+                                    <a href="#" class="menu__link menu__link--dropped">Nova template</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">Contact</li>
+                    </ul>
+                </nav>
             </div>
             <div class="header__button">
                 <button class="header__button--download">Download</button>
@@ -261,3 +267,4 @@
         <br><spam class="footer__item">Colorlib</spam></footer>
 </body>
 </html>
+
