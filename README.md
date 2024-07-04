@@ -14,6 +14,7 @@
 <br />
 
 ### Solutions provided in the project
+1. Hamburger rozwijany 
 1. <Arrow rotation>
    
        .arrow__down {
