@@ -13,7 +13,7 @@
 - make project **as readable as it is possible** (clean code, many directories, BEM) 📖
 <br />
 
-### Solutions provided in the project
+## Solutions provided in the project
 **1.** I use in this project modern CSS functions like **min(), max(), and clamp()** to create a responsive and adaptive design. These functions help ensure that the layout and elements adjust smoothly across different screen sizes and resolutions.
 
 - Responsiveness: Elements adjust dynamically to the screen size, providing a consistent and user-friendly experience across different devices.
@@ -109,8 +109,6 @@ Key Features:
 
 <img align="left" alt="CSS3" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 
-<img align="left" alt="Sass" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
-
 <img align="left" alt="Git" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
 
 <img align="left" alt="GitHub" width="50px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
@@ -124,7 +122,7 @@ Key Features:
 <br />
 <br />
 
-### 💙 You can find me on:
+## 💙 You can find me on:
 
 LinkedIn Profile [<img align="left" alt="Katarzynadworak LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
@@ -133,7 +131,7 @@ LinkedIn Profile [<img align="left" alt="Katarzynadworak LinkedIn" width="22px" 
 [linkedin]: (https://www.linkedin.com/in/katarzynadworak/)
 <br />
 
-#### Thanks
+### Thanks
 To Colorlib [colorlib.com](https://colorlib.com) for free templates.
 
 To my Mentor - devmentor.pl – for creating the task and for the code review.
