@@ -62,12 +62,6 @@ background: linear-gradient(rgba(97, 179, 255, 0.9), rgba(97, 179, 255, 0.9)),
 <img align="left" alt="Visual Studio Code" width="50px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
 <br />
 
-### :blue_heart:  You can find me on:
-<br/>
-LinkedIn Profile [<img align="left" alt="Katarzynadworak LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[linkedin]: https://www.linkedin.com/in/katarzynadworak/
-<br />
-
 #### 🛠️ Languages and Tools used:
 HTML5
 CSS3
@@ -77,8 +71,11 @@ GitHub
 Terminal
 Visual Studio Code
 
+### :blue_heart:  You can find me on:
 ##### 💙 You can find me on:
-LinkedIn Profile [linkedin]: https://www.linkedin.com/in/katarzynadworak/
+<br/>
+LinkedIn Profile [<img align="left" alt="Katarzynadworak LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin][linkedin]: https://www.linkedin.com/in/katarzynadworak/
+<br />
 
 ##### Thanks
 To Colorlib [colorlib.com](https://colorlib.com) for free templates.
