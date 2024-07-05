@@ -22,6 +22,7 @@
 - This approach leverages the power of modern CSS to create a more efficient, scalable, and maintainable codebase.
 
 Key Features:
+
 **Clamp() Function:** ensures the margin values are responsive and stay within the defined minimum and maximum limits, adapting to different screen sizes.
 
     .header__logo {
