@@ -14,7 +14,7 @@
 <br />
 
 ### Solutions provided in the project
-1. This project uses modern CSS functions like **min(), max(), and clamp()** to create a responsive and adaptive design. These functions help ensure that the layout and elements adjust smoothly across different screen sizes and resolutions.
+**1.** This project uses modern CSS functions like **min(), max(), and clamp()** to create a responsive and adaptive design. These functions help ensure that the layout and elements adjust smoothly across different screen sizes and resolutions.
 
 - Responsiveness: Elements adjust dynamically to the screen size, providing a consistent and user-friendly experience across different devices.
 - Maintainability: Using these functions even reduces the need for numerous media queries, simplifying the CSS code.
@@ -63,20 +63,61 @@ min() here sets the font size to be responsive, choosing the smaller value betwe
 
 
 max() here ensures that the margin is at least 10px, but can grow to 2% of the viewport width, providing a flexible and responsive layout for different screen sizes.
+< br/>
+< br/>
+**2.** I use CSS code to provide a clean and **functional hamburger menu** that is hidden off-screen by default and smoothly slides into view when the associated checkbox is checked, providing an intuitive and responsive navigation experience for mobile users.
 
-2. Hamburger menu by the use of CSS.
+.nav__menu {
+        background-color: #2c2c2c;
+        border-radius: 0 0 20px 20px;
+        border-bottom: 2px solid #37ebed;
+        display: block;
+        padding: 20px;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        transform: translateX(150%);
+        transition: .4s linear;
+        top: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+      
+    .header__input:checked ~ .nav__menu {
+        display: block;
+        transform: translateX(0%);
+    }
+      
+    .header__hamburger {
+        background-color: #f2f4f4;
+        cursor: pointer;
+        height: 3px;
+        position: relative;
+        width: 30px;
+    }
+      
+    .header__hamburger::after {
+        content: '';
+        background-color: #f2f4f4;
+        height: 3px;
+        position: absolute;
+        transform: translateY(-10px);
+        width: 30px;
+    }
+      
+    .header__hamburger::before {
+        content: '';
+        background-color: #f2f4f4;
+        height: 3px;
+        position: absolute;
+        transform: translateY(10px);
+        width: 30px;
+    }
    
-2. Responsywne obrazy 
-</br>
+**3.** I use **Grid** to provide flexibility to footer elements – they can be stretched in one row as well as arranged in two or one column.
 
-</br>
-
-3. Linear-gradient used for CSS background property along with an image allowed to achieve the effect of colored overlay. As linear-gradient is now well-supported across different browsers, using it is a more convenient and space-saving way of creating an overlay than doing it with CSS pseudo-elements.
-background: linear-gradient(rgba(97, 179, 255, 0.9), rgba(97, 179, 255, 0.9)),
-		    url(../images/banner/testmonial.png) no-repeat center center/cover;
-   
-5. Grid provides flexibility to footer elements – they can be stretched in one row as well as arranged in two or one column.
-
+<br />
+<br />
 ## 🛠️ Languages and Tools used: 
 
 
