@@ -63,8 +63,11 @@ min() here sets the font size to be responsive, choosing the smaller value betwe
 
 
 max() here ensures that the margin is at least 10px, but can grow to 2% of the viewport width, providing a flexible and responsive layout for different screen sizes.
+
 < br/>
 < br/>
+< br />
+
 **2.** I use CSS code to provide a clean and **functional hamburger menu** that is hidden off-screen by default and smoothly slides into view when the associated checkbox is checked, providing an intuitive and responsive navigation experience for mobile users.
 
 .nav__menu {
