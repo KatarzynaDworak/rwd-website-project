@@ -101,8 +101,10 @@ Key Features:
 
 <br />
 <br />
+
 #### 🛠️ Languages and Tools used: 
 
+<br />
 <br />
 <br />
 
