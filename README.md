@@ -28,16 +28,19 @@ I use clamp() to define flexible padding, margins, font sizes, and other propert
 
 Example: 
 
+
 .header__logo {
     margin: clamp(15px, 2vw, 30px) 12px 12px clamp(10px, 2vw, 25px);
     padding: 2px;
 }
+
 
 clamp() here ensures the margin values are responsive and stay within the defined minimum and maximum limits, adapting to different screen sizes.
 
 **Min() and Max() Functions:**
 
 I use these functions to set upper and lower bounds for various properties, allowing for more control over the layout.
+
 
 .nav__item {
     margin: 11px;
@@ -46,7 +49,9 @@ I use these functions to set upper and lower bounds for various properties, allo
     transition: font-weight 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
 }
 
+
 min() here sets the font size to be responsive, choosing the smaller value between 4% of the viewport width and 15px, ensuring readability across devices.
+
 
 .benefits__img-1, .benefits__img-2, .benefits__img-3 {
     width: 115px;
@@ -55,6 +60,7 @@ min() here sets the font size to be responsive, choosing the smaller value betwe
     margin: max(10px, 2vw) auto;
     padding: 33px;
 }
+
 
 max() here ensures that the margin is at least 10px, but can grow to 2% of the viewport width, providing a flexible and responsive layout for different screen sizes.
 
