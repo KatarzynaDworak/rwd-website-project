@@ -49,7 +49,7 @@ Key Features:
         padding: 33px;
     }
 
-**2.** I use CSS code to provide a clean and **functional hamburger menu** that is hidden off-screen by default and smoothly slides into view when the associated checkbox is checked, providing an intuitive and responsive navigation experience for mobile users.
+**2.** I used CSS code to provide a clean and **functional hamburger menu** that is hidden off-screen by default and smoothly slides into view when the associated checkbox is checked, providing an intuitive and responsive navigation experience for mobile users.
 
     .nav__menu {
         background-color: #2c2c2c;
