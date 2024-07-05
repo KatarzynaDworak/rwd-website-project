@@ -14,7 +14,7 @@
 <br />
 
 ## Solutions provided in the project
-**1.** I use in this project modern CSS functions like **min(), max(), and clamp()** to create a responsive and adaptive design. These functions help ensure that the layout and elements adjust smoothly across different screen sizes and resolutions.
+**1.** I used in this project modern CSS functions like **min(), max(), and clamp()** to create a responsive and adaptive design. These functions help ensure that the layout and elements adjust smoothly across different screen sizes and resolutions.
 
 - Responsiveness: Elements adjust dynamically to the screen size, providing a consistent and user-friendly experience across different devices.
 - Maintainability: Using these functions even reduces the need for numerous media queries, simplifying the CSS code.
