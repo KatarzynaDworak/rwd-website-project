@@ -98,7 +98,7 @@ Key Features:
         width: 30px;
     }
    
-**3.** I also use **Grid** to provide flexibility to footer elements – they can be stretched in one row as well as arranged in two or one column.
+**3.** I also used **Grid** to provide flexibility to footer elements – they can be stretched in one row as well as arranged in two or one column.
 
 <br />
 <br />
