@@ -5,7 +5,6 @@
         color: #f2f4f4;
         display: flex;
         justify-content: space-between;
-        /* dodane */
         align-items: center;
         padding: 10px;
         position: relative;
@@ -14,13 +13,11 @@
     .header__logo {
         margin: 18px 12px 10px 25px;
         padding: 2px;
-        /* dodane */
+        
         height: auto;
         vertical-align: -5px;
         width: 70px;
     }
-
-    /* dodane */
 
     .header__input {
         display: none;
