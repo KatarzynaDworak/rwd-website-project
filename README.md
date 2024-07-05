@@ -36,8 +36,21 @@ Example:
 **Min() and Max() Functions:**
 
 I use these functions to set upper and lower bounds for various properties, allowing for more control over the layout.
-Example: letter-spacing: max(1px, 0.1vw); ensures that letter spacing will be at least 1px but can increase to 0.1% of the viewport width.
-Benefits:
+
+.nav__item {
+    margin: 11px;
+    font-size: min(4vw, 15px);
+    position: relative;
+    transition: font-weight 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
+}
+
+.benefits__img-1, .benefits__img-2, .benefits__img-3 {
+    width: 115px;
+    height: 115px;
+    border-radius: 19px;
+    margin: max(10px, 2vw) auto;
+    padding: 33px;
+}
 
 2. Hamburger menu by the use of CSS.
    
