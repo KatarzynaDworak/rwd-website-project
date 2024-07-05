@@ -66,6 +66,7 @@ background: linear-gradient(rgba(97, 179, 255, 0.9), rgba(97, 179, 255, 0.9)),
 <br/>
 LinkedIn Profile [<img align="left" alt="Katarzynadworak LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin][linkedin]: https://www.linkedin.com/in/katarzynadworak/
 <br />
+LinkedIn Profile [<img align="left" alt="Katarzynadworak LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
 #### Thanks
 To Colorlib [colorlib.com](https://colorlib.com) for free templates.
