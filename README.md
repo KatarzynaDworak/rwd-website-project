@@ -125,7 +125,7 @@ Key Features:
 ## :blue_heart:  You can find me on:
 <br/>
 
-  [<img align="left" alt="Mateusz Sowa LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][LinkedIn Profile](https://www.linkedin.com/in/katarzynadworakk/)
+[<img align="left" alt="Mateusz Sowa LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][LinkedIn Profile](https://www.linkedin.com/in/katarzynadworakk/)
 
  
 <br />
