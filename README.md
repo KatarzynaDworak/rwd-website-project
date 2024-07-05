@@ -27,6 +27,11 @@ Key Features:
 I use clamp() to define flexible padding, margins, font sizes, and other properties. This allows me for setting minimum, preferred, and maximum values for various elements, ensuring they scale properly on different devices.
 Example: padding: clamp(10px, 2vw, 20px); ensures that padding will be at least 10px, preferably 2% of the viewport width, but not more than 20px.
 
+.header__logo {
+    margin: clamp(15px, 2vw, 30px) 12px 12px clamp(10px, 2vw, 25px);
+    padding: 2px;
+}
+
 **Min() and Max() Functions:**
 
 I use these functions to set upper and lower bounds for various properties, allowing for more control over the layout.
