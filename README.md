@@ -7,36 +7,10 @@
 <br />
 
 ## Main goal of my work was to:
-
-- Develop a Visually Appealing Template: Create a high-quality, premium-looking template suitable for a wide range of web projects, focusing on aesthetics and modern design principles.
-Ensure Full Responsiveness:
-
-- Implement a fully responsive design that looks great on any device, including smartphones, tablets, laptops, and desktops.
-Facilitate Easy Customization:
-
-Provide a highly customizable template, allowing users to easily change colors, images, and sections to suit their specific needs.
-Incorporate Smooth User Interactions:
-
-Utilize CSS transitions and animations to enhance user interactions, ensuring a smooth and engaging experience.
-Utilize Clean and Organized Code:
-
-Follow the BEM (Block Element Modifier) methodology for writing clean, modular, and maintainable HTML and CSS code.
-Apply Modern Design Techniques:
-
-Use modern design techniques such as radial gradients, shadows, and flexible grid layouts to create an attractive and functional interface.
-Ensure Cross-Browser Compatibility:
-
-Implement CSS properties and techniques that are compatible across different browsers, ensuring a consistent user experience.
-Integrate External Fonts and Icons:
-
-Incorporate Google Fonts and custom icons to enhance the visual appeal and readability of the template.
-Offer Various Pricing Plans:
-
-Design a clear and attractive pricing section, presenting different plans to cater to various user needs.
-Showcase the Team Behind the Project:
-
-Include a section highlighting the team members, their roles, and social media links to add a personal touch and build credibility.
-By achieving these objectives, I demonstrated the ability to create visually appealing, responsive, and user-friendly web interfaces while adhering to best practices in front-end development. This project showcases my commitment to delivering high-quality web solutions and continuous improvement in my development skills.
+- code **Responsive Web Design (RWD)** site 📱
+- do it in a way that it **looks decent on mobiles, tablets and desktops** 🖥️
+- use **semantic HTML** (BEM) 📝
+- make project **as readable as it is possible** (clean code, many directories, BEM) 📖
 <br />
 
 ## Solutions provided in the project
