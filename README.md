@@ -122,13 +122,12 @@ Key Features:
 <br />
 <br />
 
-## 💙 You can find me on:
+## :blue_heart:  You can find me on:
+<br/>
 
-LinkedIn Profile [<img align="left" alt="Katarzynadworak LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+ LinkedIn Profile [<img align="left" alt="Mateusz Sowa LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
-<br />
-
-[linkedin]: (https://www.linkedin.com/in/katarzynadworak/)
+ 
 <br />
 
 ### Thanks
