@@ -123,7 +123,10 @@ Key Features:
 <br />
 <br />
 
-## :blue_heart:  You can find me on: [<img align="left" alt="Katarzyna Dworak LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/katarzynadworakk/)
+## :blue_heart:  You can find me on: 
+<br />
+
+[<img align="left" alt="Katarzyna Dworak LinkedIn" width="40px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />](https://www.linkedin.com/in/katarzynadworakk/)
 
  
 <br />
