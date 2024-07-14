@@ -136,51 +136,11 @@
     .header__button {
         display: none;
     }
-    /* header {
-        background-color: #2c2c2c;
-        color: #f2f4f4;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .header__logo {
-        margin: 13px 12px 10px;
-        padding: 2px;
-    }
-
-    .header__nav {
-        margin: 19px 17px 14px 10px;
-        width: 37px;
-        height: 35px;
-        border: 0;
-        border-top: 3px solid #f2f4f4;
-        background: transparent;
-        position: relative;
-    }
-
-    .header__nav::before, .header__nav::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        border-top: 3px solid #f2f4f4;
-        transform: translateY(10px);
-    }
-
-    .header__nav::after {
-        transform: translateY(23px);
-    }
-
-    .nav__list, .header__button {
-        display: none;
-    } */
 
     main {
         background-image: url(../images/banner/banner.png);
         background-repeat: no-repeat;
         background-size: cover;
-        /* Tło nie rotuje się */
         transform: rotateY('180deg');
         height: 100%;
         color: #f2f4f4;
